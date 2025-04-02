@@ -2,6 +2,7 @@ import importlib
 
 SERVICES = [
     "core.services.server_info",    # server info html page
+    "app.services.default_tools_messages",
 ]
 
 ACCESS_KEYS_FILE_PATH = "storage/access_keys.json" 
